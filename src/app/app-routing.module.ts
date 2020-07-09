@@ -5,7 +5,7 @@ import { SecondComponentComponent } from './second-component/second-component.co
 
 const routes: Routes = [
  {path: 'first-component', component: FirstComponentComponent},
- {path: 'second-component', component: SecondComponentComponent}
+ {path: 'second-component', component: SecondComponentComponent},
 ];
 
 @NgModule({

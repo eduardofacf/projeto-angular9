@@ -1,5 +1,9 @@
-<p>Este é o meu componente!</p>
+<p *ngIf="name === '15' || name === '20'">Este é o meu componente!</p>
 
 <input type="text" (input)="insertValue($event.target.value)">
 <br>
 {{name}}
+
+<div *ngFor="let item of arrayValue">
+    <p *ngIf="item !== 'Eduardo'">{{item}}</p>   
+</div>
